@@ -40,7 +40,7 @@ The goal was to:
 
 ## Step 1 — Firewall App Control: Blocking AI Platform Signatures
 
-![App Control Signatures](firewall-config/screenshots/01-app-control-signatures.png)
+![App Control Signatures](https://raw.githubusercontent.com/Skywalkergrn/Phishing-Awareness-Campaign-AI-Platform-Access-Control/main/firewall-config/screenshots/01-app-control-signatures.png)
 
 Using the firewall's App Control engine, AI-APPS category signatures were identified and set to **Block** for all users without an approved exception. This covered the application signatures for the following platforms at the HTTPS traffic level:
 
@@ -59,7 +59,7 @@ Each signature was configured as **Outgoing, to Server** — blocking traffic at
 
 ## Step 2 — ACL Rule: Block WAN Access to All AI URLs
 
-![ACL Block Rule](firewall-config/screenshots/02-acl-block-rule.png)
+![ACL Block Rule](https://raw.githubusercontent.com/Skywalkergrn/Phishing-Awareness-Campaign-AI-Platform-Access-Control/main/firewall-config/screenshots/02-acl-block-rule.png)
 
 An Access Control List (ACL) rule named **"AI Block"** was created to enforce the policy at the network layer. The rule was configured as follows:
 
@@ -82,7 +82,7 @@ The rule description notes that exceptions are handled separately for users with
 
 ## Step 3 — KnowBe4: Creating the Phishing Campaign
 
-![KnowBe4 Campaign Setup](phishing-campaign/screenshots/03-knowbe4-campaign-setup.png)
+![KnowBe4 Campaign Setup](https://raw.githubusercontent.com/Skywalkergrn/Phishing-Awareness-Campaign-AI-Platform-Access-Control/main/phishing-campaign/screenshots/03-knowbe4-campaign-setup.png)
 
 The phishing simulation was created and managed within the **KnowBe4** security awareness platform. The campaign was configured as follows:
 
@@ -96,7 +96,7 @@ Targeting a specific group rather than all users allowed the simulation to focus
 
 ## Step 4 — Phishing Email Template: Impersonating a ChatGPT Payment Decline
 
-![Phishing Email Template](phishing-campaign/screenshots/04-phishing-email-template.png)
+![Phishing Email Template](https://raw.githubusercontent.com/Skywalkergrn/Phishing-Awareness-Campaign-AI-Platform-Access-Control/main/phishing-campaign/screenshots/04-phishing-email-template.png)
 
 A phishing email template was created to impersonate a legitimate ChatGPT billing notification. The email was designed to create a sense of urgency by claiming the recipient's monthly subscription payment had been declined, prompting them to click a link to update their payment details.
 
@@ -114,8 +114,8 @@ This template was selected because users blocked from ChatGPT at the network lev
 
 ## Step 5 & 6 — Landing Page: Mirroring the ChatGPT Login Page
 
-![Landing Page Preview](phishing-campaign/screenshots/05-landing-page-preview.png)
-![Landing Page Source](phishing-campaign/screenshots/06-landing-page-source.png)
+![Landing Page Preview](https://raw.githubusercontent.com/Skywalkergrn/Phishing-Awareness-Campaign-AI-Platform-Access-Control/main/phishing-campaign/screenshots/05-landing-page-preview.png)
+![Landing Page Source](https://raw.githubusercontent.com/Skywalkergrn/Phishing-Awareness-Campaign-AI-Platform-Access-Control/main/phishing-campaign/screenshots/06-landing-page-source.png)
 
 A credential-harvesting landing page was created within KnowBe4 and customised to closely replicate the appearance of the legitimate ChatGPT login page. The page included:
 
@@ -131,7 +131,7 @@ The source code was edited directly to mirror the styling and layout of the genu
 
 ## Step 7 — Awareness Landing Page: Post-Submission Education
 
-![Awareness Landing Page](phishing-campaign/screenshots/07-awareness-landing-page.png)
+![Awareness Landing Page](https://raw.githubusercontent.com/Skywalkergrn/Phishing-Awareness-Campaign-AI-Platform-Access-Control/main/phishing-campaign/screenshots/07-awareness-landing-page.png)
 
 Users who submitted their credentials on the fake login page were immediately redirected to an awareness landing page branded with the organisation logo. The page displayed a clear message informing the user that they had fallen for a simulated phishing test, and provided three key reminders:
 
