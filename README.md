@@ -6,7 +6,7 @@
 
 ## Overview
 
-This project documents a security awareness exercise conducted to test and educate end users on the risks of phishing — specifically targeting users of AI platforms. As part of the same initiative, all non-approved AI platforms were blocked at the network perimeter using firewall App Control signatures and Access Control List (ACL) rules, ensuring users could only access Claude.ai through a controlled and monitored environment.
+This project documents a security awareness exercise conducted to test and educate end users on the risks of phishing — specifically targeting users of AI platforms. As part of the same initiative, all non-approved AI platforms were blocked at the network perimeter using firewall App Control signatures and Access Control List (ACL) rules, ensuring users could only access Chatgpt through a controlled and monitored environment.
 
 The goal was to:
 - Restrict AI platform access to users with a legitimate business case only
@@ -165,7 +165,7 @@ This immediate in-the-moment education is a core principle of effective phishing
 
 ## About This Project
 
-As part of my role as a Cybersecurity Analyst at BWT, a core responsibility is protecting the organisation's users and infrastructure from evolving threats. This means not only implementing technical controls — such as firewall policies to govern which platforms users can access — but also ensuring those users are equipped to recognise and resist social engineering attacks.
+As part of my role as a Cybersecurity Engineer at BWT, a core responsibility is protecting the organisation's users and infrastructure from evolving threats. This means not only implementing technical controls — such as firewall policies to govern which platforms users can access — but also ensuring those users are equipped to recognise and resist social engineering attacks.
 
 Phishing remains one of the most common and effective attack vectors, and AI platforms are an increasingly realistic lure given how widely they are used in the workplace. This project combines both sides of that responsibility: locking down the network perimeter to enforce a controlled AI access policy, and testing whether users would fall for a phishing attempt themed around the very tools they use day to day.
 
